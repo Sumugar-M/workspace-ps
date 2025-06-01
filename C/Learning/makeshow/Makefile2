@@ -1,0 +1,9 @@
+# if i didnt enter main.c(prerequistes) and i make any changes in main.c ..it will not check and compile...again
+# the respective changes ..but if we enter main.c in prerequistes...for every changes it will re-compile it again..
+
+
+main:main.c
+	gcc -o main main.c
+
+clean:
+	rm main

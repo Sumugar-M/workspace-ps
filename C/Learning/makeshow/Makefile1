@@ -1,0 +1,10 @@
+#target : prerequsite   first it will try to execute hello..but the preresiste is hello.c ..it will search and excute 
+#hello.c and next execute the hello...which was in command...
+hello: hello.c
+	echo "Hello World" && touch hello
+
+hello.c: 
+	echo "#include<stdio.h>int main(){printf("Hello hello.c\n");}" > hello.c 
+
+clean:
+	rm hello hello.c
