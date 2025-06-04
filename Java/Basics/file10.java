@@ -1,4 +1,33 @@
 
+/*
+
+Write a program to add first and last Armstrong numbers in the given range.
+
+Input Format
+
+100
+1000
+
+Constraints
+
+Input should be the range
+
+Output Format
+
+560
+
+Sample Input 0
+
+1
+400
+Sample Output 0
+
+372
+
+
+*/ 
+
+
 import java.util.*;
 
 public class file10 {
